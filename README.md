@@ -23,3 +23,6 @@ Throughout the internship, I implemented key application features such as CRUD o
 I actively participated in team discussions and maintained regular communication regarding my progress, which strengthened my collaboration and communication skills. I adhered to company policies, maintained a professional approach in all assigned tasks, and contributed positively to team-based activities. Seeking and incorporating feedback from mentors played a crucial role in improving my technical abilities and overall performance.
 Furthermore, this internship provided me with insights into the complete lifecycle of web application development, including planning, development, testing, and refinement. It enabled me to understand how different technologies integrate to form a fully functional system.
 In conclusion, this internship significantly enhanced my technical proficiency in full stack development and strengthened my ability to build scalable, efficient, and user-centric web applications. It also helped me develop a professional mindset, preparing me for future opportunities in the field of software development.
+
+# OUTPUT OF THE TASK
+
