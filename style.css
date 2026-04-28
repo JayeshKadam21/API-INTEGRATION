@@ -1,0 +1,147 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background (Sky Theme) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, #87ceeb, #cfe9ff, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.app-container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.card h1 {
+    margin-bottom: 20px;
+}
+
+/* Search */
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+/* Input */
+.search-box input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 60%;
+}
+
+/* Button */
+.search-box button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #0077ff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #005ad1;
+}
+
+/* Weather Card */
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.weather-card img {
+    width: 80px;
+}
+
+.weather-card h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.details {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input,
+    .search-box button {
+        width: 100%;
+    }
+}
+
+/* Grid Layout */
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 15px;
+}
+
+/* Small Cards */
+.detail-card {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.detail-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Icon */
+.detail-card p {
+    font-size: 20px;
+}
+
+/* Label */
+.detail-card span {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Value */
+.detail-card h3 {
+    font-size: 16px;
+    margin-top: 5px;
+}
