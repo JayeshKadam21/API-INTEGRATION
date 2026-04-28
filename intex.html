@@ -3,43 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Pro</title>
-
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="app-container">
+        <div class="card">
+            <h1>🌤 Weather App</h1>
 
-        <header class="app-header">
-            <div class="header-content">
-                <div class="logo">
-                    <span class="logo-icon">🌤️</span>
-                    <h1>Weather<span>Pro</span></h1>
-                </div>
-                <div class="header-meta">
-                    <span id="locationDisplay">Enter city</span>
-                    <span id="lastUpdated"></span>
-                </div>
-            </div>
-        </header>
-
-        <main class="weather-app">
-
-            <div class="search-section">
-                <div class="search-box">
-                    <input type="text" id="city" placeholder="Enter city..." />
-                    <button id="searchBtn">Search</button>
-                </div>
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button onclick="getWeather()">Search</button>
             </div>
 
-            <section id="weatherResult"></section>
-
-        </main>
-
-        <footer class="app-footer">
-            <small>Powered by OpenWeather API</small>
-        </footer>
-
+            <div id="weatherData" class="weather-box">
+                <p>Enter a city to check weather</p>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
