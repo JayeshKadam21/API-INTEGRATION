@@ -26,3 +26,5 @@ In conclusion, this internship significantly enhanced my technical proficiency i
 
 # OUTPUT OF THE TASK
 
+<img width="1916" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b90fd474-9be8-43ac-9d1a-fb01990c2f40" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/608d29f6-f6e9-4655-bc55-e650cceea636" />
