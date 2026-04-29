@@ -29,6 +29,12 @@ Throughout the internship, I implemented key features such as CRUD operations, f
 I actively participated in team discussions and maintained regular communication regarding my progress, which enhanced my collaboration skills. I followed company policies and maintained a professional approach in all assigned tasks.
 
 Overall, this internship provided valuable exposure to the complete lifecycle of web application development, including planning, development, testing, and deployment. It significantly improved my technical skills and prepared me for future opportunities in software development.
+
 # OUTPUT OF THE TASK
 
+The final output of this task is a successfully implemented API Integration within a web application. The application fetches and displays real-time data from an external API, demonstrating effective client-server communication and data handling.
+
+The integration was developed using JavaScript and backend technologies, ensuring smooth data retrieval and proper error handling.
+
+The output is verified through the successful display of API data on the user interface, as shown in the attached screenshot.
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/608d29f6-f6e9-4655-bc55-e650cceea636" />
